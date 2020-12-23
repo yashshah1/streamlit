@@ -14693,10 +14693,10 @@ react-focus-lock@^2.2.1:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
-react-google-login@^5.1.21:
-  version "5.1.21"
-  resolved "https://registry.yarnpkg.com/react-google-login/-/react-google-login-5.1.21.tgz#3d9edc1c08a0cf602a97d70ca406502b747cb890"
-  integrity sha512-z5LtNOc9FZgrkwnqpnzN/hWqG/Tg5+9gKDz0hIHx82U48TkcXvD3HjhhbAzM5OsyFGRE39GnaC4SdB3mpWGX6A==
+react-google-login@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-google-login/-/react-google-login-5.2.1.tgz#29e14906269cba6cf7a9dc359baf55ed7b482a00"
+  integrity sha512-7yz0yH+JxSFy/KOMBfm5QY8W4xxJTh/qFIi/MNjDjyXKgDtB8JpoVyPsTRMlv8HKdDshFHSZn199KEX9Q2flFA==
   dependencies:
     "@types/react" "*"
     prop-types "^15.6.0"
