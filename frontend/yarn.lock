@@ -2343,6 +2343,11 @@
   resolved "https://registry.yarnpkg.com/@types/d3-color/-/d3-color-1.2.2.tgz#80cf7cfff7401587b8f89307ba36fe4a576bc7cf"
   integrity sha512-6pBxzJ8ZP3dYEQ4YjQ+NVbQaOflfgXq/JbDiS99oLobM2o72uAST4q6yPxHv6FOTCRC/n35ktuo8pvw/S4M7sw==
 
+"@types/d3-color@^1":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@types/d3-color/-/d3-color-1.4.2.tgz#944f281d04a0f06e134ea96adbb68303515b2784"
+  integrity sha512-fYtiVLBYy7VQX+Kx7wU/uOIkGQn8aAEY8oWMoyja3N4dLd8Yf6XgSIR/4yWvMuveNOH5VShnqCgRqqh/UNanBA==
+
 "@types/d3-contour@*":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@types/d3-contour/-/d3-contour-1.3.0.tgz#1a408b121fa5e341f715e3055303ef3079fc7eb0"
@@ -2397,14 +2402,14 @@
   dependencies:
     "@types/geojson" "*"
 
-"@types/d3-graphviz@^2.6.3":
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/@types/d3-graphviz/-/d3-graphviz-2.6.3.tgz#68a57f0aab6d8e549dab04e5c82124052f68bd1e"
-  integrity sha512-K8q9ZBmE2Xbqh+eRbNhjN7NNUWtnoIHzFnPZ+ulHonvgnv5qL2Hzppx/fg2ZFa9V2OUUbzoOS0H28FtVCVsQ5w==
+"@types/d3-graphviz@^2.6.7":
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/@types/d3-graphviz/-/d3-graphviz-2.6.7.tgz#48fbec73fe0d5a2a0e2c48b66c9dfe0cd2633ea9"
+  integrity sha512-dKJjD5HiFvAmC0FL/c70VB1diie8FCpyiCZfxMlf6TwYBqUyFvS4XJt6MoxjIuQTJhKDBGzrIvDOgM8gYMLSVA==
   dependencies:
-    "@types/d3-selection" "*"
-    "@types/d3-transition" "*"
-    "@types/d3-zoom" "*"
+    "@types/d3-selection" "^1"
+    "@types/d3-transition" "^1"
+    "@types/d3-zoom" "^1"
 
 "@types/d3-hierarchy@*":
   version "1.1.6"
@@ -2417,6 +2422,13 @@
   integrity sha512-z8Zmi08XVwe8e62vP6wcA+CNuRhpuUU5XPEfqpG0hRypDE5BWNthQHB1UNWWDB7ojCbGaN4qBdsWp5kWxhT1IQ==
   dependencies:
     "@types/d3-color" "*"
+
+"@types/d3-interpolate@^1":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@types/d3-interpolate/-/d3-interpolate-1.4.2.tgz#88902a205f682773a517612299a44699285eed7b"
+  integrity sha512-ylycts6llFf8yAEs1tXzx2loxxzDZHseuhPokrqKprTQSTcD3JbJI1omZP1rphsELZO3Q+of3ff0ZS7+O6yVzg==
+  dependencies:
+    "@types/d3-color" "^1"
 
 "@types/d3-path@*":
   version "1.0.8"
@@ -2450,10 +2462,10 @@
   dependencies:
     "@types/d3-time" "*"
 
-"@types/d3-selection@*":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@types/d3-selection/-/d3-selection-1.4.2.tgz#72dcd61a3aeb9ce3e8d443e3bef7685ffea3413f"
-  integrity sha512-ksY8UxvTXpzD91Dy3D9zZg98yF2ZEPMKJd8ZQJlZt1QH3Xxr08s6fESEdC2l0Kbe6Xd9VhaoJX06cRaMR1lEnA==
+"@types/d3-selection@*", "@types/d3-selection@^1":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@types/d3-selection/-/d3-selection-1.4.3.tgz#36928bbe64eb8e0bbcbaa01fb05c21ff6c71fa93"
+  integrity sha512-GjKQWVZO6Sa96HiKO6R93VBE8DUW+DDkFpIMf9vpY5S78qZTlRRSNUsHr/afDpF7TvLDV7VxrUFOWW7vdIlYkA==
 
 "@types/d3-shape@*":
   version "1.3.2"
@@ -2477,25 +2489,25 @@
   resolved "https://registry.yarnpkg.com/@types/d3-timer/-/d3-timer-1.0.9.tgz#aed1bde0cf18920d33f5d44839d73de393633fd3"
   integrity sha512-WvfJ3LFxBbWjqRGz9n7GJt08RrTHPJDVsIwwoCMROlqF+iDacYiAFjf9oqnq0mXpb2juA2N/qjKP+MKdal3YNQ==
 
-"@types/d3-transition@*":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@types/d3-transition/-/d3-transition-1.1.6.tgz#7e52da29749d874866cc803fad13925713a372da"
-  integrity sha512-/F+O2r4oz4G9ATIH3cuSCMGphAnl7VDx7SbENEK0NlI/FE8Jx2oiIrv0uTrpg7yF/AmuWbqp7AGdEHAPIh24Gg==
+"@types/d3-transition@*", "@types/d3-transition@^1":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@types/d3-transition/-/d3-transition-1.3.2.tgz#ed59beca7b4d679cfa52f88a6a50e5bbeb7e0a3c"
+  integrity sha512-J+a3SuF/E7wXbOSN19p8ZieQSFIm5hU2Egqtndbc54LXaAEOpLfDx4sBu/PKAKzHOdgKK1wkMhINKqNh4aoZAg==
   dependencies:
-    "@types/d3-selection" "*"
+    "@types/d3-selection" "^1"
 
 "@types/d3-voronoi@*":
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/@types/d3-voronoi/-/d3-voronoi-1.1.9.tgz#7bbc210818a3a5c5e0bafb051420df206617c9e5"
   integrity sha512-DExNQkaHd1F3dFPvGA/Aw2NGyjMln6E9QzsiqOcBgnE+VInYnFBHBBySbZQts6z6xD+5jTfKCP7M4OqMyVjdwQ==
 
-"@types/d3-zoom@*":
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/@types/d3-zoom/-/d3-zoom-1.7.5.tgz#1fd7f3497a10f8cfaaefcf2f879767ec775fc3a3"
-  integrity sha512-G0lpZjlvmv+fI2/dg2whWFbUUmMC3dy4xoeaGOXnaUmOSnms1q9QtlkRq5MXZt1/7LcKwzgmKdEjPVLVq5dH5Q==
+"@types/d3-zoom@*", "@types/d3-zoom@^1":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@types/d3-zoom/-/d3-zoom-1.8.3.tgz#00237900c6fdc2bb4fe82679ee4d74eb8fbe7b3c"
+  integrity sha512-3kHkL6sPiDdbfGhzlp5gIHyu3kULhtnHTTAl3UBZVtWB1PzcLL8vdmz5mTx7plLiUqOA2Y+yT2GKjt/TdA2p7Q==
   dependencies:
-    "@types/d3-interpolate" "*"
-    "@types/d3-selection" "*"
+    "@types/d3-interpolate" "^1"
+    "@types/d3-selection" "^1"
 
 "@types/d3@^3":
   version "3.5.43"
